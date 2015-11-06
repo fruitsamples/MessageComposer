@@ -3,7 +3,7 @@
  Abstract: UIViewController that includes a UIButton and a UILabel.
  The button responds to an IBAction that will bring up the MFMessageCOmposeViewController for composing a new SMS text message. The label will show a feedback message of whether the SMS text message has been sent.
  
-  Version: 1.0
+  Version: 1.1
  
  Disclaimer: IMPORTANT:  This Apple software is supplied to you by Apple
  Inc. ("Apple") in consideration of your agreement to the following
@@ -152,9 +152,9 @@
 	[picker setBccRecipients:bccRecipients];
 	
 	// Attach an image to the email
-	NSString *path = [[NSBundle mainBundle] pathForResource:@"rainy" ofType:@"png"];
+	NSString *path = [[NSBundle mainBundle] pathForResource:@"rainy" ofType:@"jpg"];
 	NSData *myData = [NSData dataWithContentsOfFile:path];
-	[picker addAttachmentData:myData mimeType:@"image/png" fileName:@"rainy"];
+	[picker addAttachmentData:myData mimeType:@"image/jpeg" fileName:@"rainy"];
 	
 	// Fill out the email body text
 	NSString *emailBody = @"It is raining in sunny California!";

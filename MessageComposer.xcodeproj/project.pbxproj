@@ -21,11 +21,10 @@
 		7E311C6C11D157E300EB2D81 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E311C6311D157E300EB2D81 /* Icon-Small@2x.png */; };
 		7E311C6D11D157E300EB2D81 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E311C6411D157E300EB2D81 /* Icon.png */; };
 		7E311C6E11D157E300EB2D81 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E311C6511D157E300EB2D81 /* Icon@2x.png */; };
-		7E311C7011D157E300EB2D81 /* rainy.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E311C6711D157E300EB2D81 /* rainy.png */; };
-		7E5328DF1198CF5400BCC65C /* ReadMe.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7E5328DE1198CF5400BCC65C /* ReadMe.txt */; };
 		7E5328ED1198CF9900BCC65C /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E5328E91198CF9900BCC65C /* MainWindow.xib */; };
 		7E5328EE1198CF9900BCC65C /* MessageComposerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E5328EB1198CF9900BCC65C /* MessageComposerViewController.xib */; };
 		7E8EEBBC119764BF0073914C /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E8EEBBB119764BF0073914C /* MessageUI.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		EDA2139E1278CF9E003F0221 /* rainy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EDA2139D1278CF9E003F0221 /* rainy.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,12 +46,11 @@
 		7E311C6311D157E300EB2D81 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small@2x.png"; path = "Images/Icon-Small@2x.png"; sourceTree = "<group>"; };
 		7E311C6411D157E300EB2D81 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = Images/Icon.png; sourceTree = "<group>"; };
 		7E311C6511D157E300EB2D81 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "Images/Icon@2x.png"; sourceTree = "<group>"; };
-		7E311C6711D157E300EB2D81 /* rainy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rainy.png; path = Images/rainy.png; sourceTree = "<group>"; };
-		7E5328DE1198CF5400BCC65C /* ReadMe.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReadMe.txt; sourceTree = SOURCE_ROOT; };
 		7E5328EA1198CF9900BCC65C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
 		7E5328EC1198CF9900BCC65C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MessageComposerViewController.xib; sourceTree = "<group>"; };
 		7E8EEBBB119764BF0073914C /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		8D1107310486CEB800E47090 /* MessageComposer-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "MessageComposer-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		EDA2139D1278CF9E003F0221 /* rainy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = rainy.jpg; path = Images/rainy.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,7 +90,6 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
-				7E5328DE1198CF5400BCC65C /* ReadMe.txt */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
@@ -144,7 +141,7 @@
 				7E311C6311D157E300EB2D81 /* Icon-Small@2x.png */,
 				7E311C6411D157E300EB2D81 /* Icon.png */,
 				7E311C6511D157E300EB2D81 /* Icon@2x.png */,
-				7E311C6711D157E300EB2D81 /* rainy.png */,
+				EDA2139D1278CF9E003F0221 /* rainy.jpg */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -176,6 +173,7 @@
 			isa = PBXProject;
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "MessageComposer" */;
 			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
 			hasScannedForEncodings = 1;
 			knownRegions = (
 				English,
@@ -198,7 +196,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E5328DF1198CF5400BCC65C /* ReadMe.txt in Resources */,
 				7E5328ED1198CF9900BCC65C /* MainWindow.xib in Resources */,
 				7E5328EE1198CF9900BCC65C /* MessageComposerViewController.xib in Resources */,
 				7E311C6811D157E300EB2D81 /* Default.png in Resources */,
@@ -208,8 +205,8 @@
 				7E311C6C11D157E300EB2D81 /* Icon-Small@2x.png in Resources */,
 				7E311C6D11D157E300EB2D81 /* Icon.png in Resources */,
 				7E311C6E11D157E300EB2D81 /* Icon@2x.png in Resources */,
-				7E311C7011D157E300EB2D81 /* rainy.png in Resources */,
 				7E19D3E811D1898D000002E9 /* iTunesArtwork in Resources */,
+				EDA2139E1278CF9E003F0221 /* rainy.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,9 +280,9 @@
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.1.3;
 				PREBINDING = NO;
-				SDKROOT = iphoneos4.0;
+				SDKROOT = iphoneos4.1;
 			};
 			name = Debug;
 		};
@@ -297,10 +294,10 @@
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.1.3;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PREBINDING = NO;
-				SDKROOT = iphoneos4.0;
+				SDKROOT = iphoneos4.1;
 			};
 			name = Release;
 		};

@@ -2,7 +2,7 @@
      File: MessageComposerAppDelegate.h 
  Abstract: Application delegate that sets up a view controller with a button and feedback message label.
   
-  Version: 1.0 
+  Version: 1.1 
   
  Disclaimer: IMPORTANT:  This Apple software is supplied to you by Apple 
  Inc. ("Apple") in consideration of your agreement to the following 
